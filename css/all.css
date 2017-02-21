@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	color: #000;
+	font: 14px/18px "Trebuchet MS", Helvetica, sans-serif;
+	background: #091319 url(../img/body-bg.jpg) no-repeat 50% 0;
+}
+
+img {border-style: none;}
+a {	color: #000;
+	text-decoration: none;
+}
+ul{
+	list-style-type:none;
+	padding: 0;
+}
+a:hover{text-decoration: underline;}
+/* General settings */
+.container{
+	margin:0 auto;
+	width: 999px;
+}
+.conteiner:after{
+	content:'';
+	display: block;
+	clear:both;
+}
+#header{
+	background: url(../img/title-bg.png) repeat-x;
+	height: 116px;
+	margin-bottom: 26px;
+}
+#header .container{
+	overflow: hidden;
+}
+.logo{
+	float:left;
+	margin:10px 0 0;
+	background: url(../img/logo-bg.png) no-repeat;
+	width:303px;
+	height: 93px;
+	text-indent: -9999px;
+	overflow: hidden;
+
+}
+.logo a{
+	display: block;
+	height: 100%;
+}
+.menu-section{
+	float:right;
+}
+.menu-section ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu-section ul a{
+	color: #fff;
+}
+.login-menu{
+	text-align: right;
+}
+.login-menu li{
+	display: inline-block;
+	line-height: 30px;
+	background: url(../img/separator.gif) no-repeat 0 50%;
+
+	padding: 0 8px;
+}
+.login-menu li:first-child{
+	background: none;
+}
+.menu-section .nav {margin-top: 1px;}
+.nav li{
+	display: inline-block;
+	margin-right: -4px;
+
+}
+.nav li a{
+	display:block;
+	text-transform: uppercase;
+	line-height: 78px;
+	padding: 0 12px;
+	margin: 0;
+}
